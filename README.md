@@ -6,7 +6,7 @@ This program will check the wind forecast for defined locations, if the forecast
 
 ## Steps you have to do
 0. install [forecast.io Wrapper](https://github.com/ZeevG/python-forecast.io) by typing `pip install python-forecastio`
-1. get your APIkey at [developer.forecast.io](http://developer.forecast.io)
+1. get your API key at [developer.forecast.io](http://developer.forecast.io)
 2. modify "locations" with the locations you are interested in.
 3. run the program in terminal with `python forecastAlert.py`
 

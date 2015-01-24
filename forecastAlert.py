@@ -4,7 +4,7 @@
 import forecastio
 
 # get your APIkey at http://developer.forecast.io
-api_key = "f421991e6fe4d17a34cbf67ec3e24eaa"
+api_key = "YOUR_KEY"
 
 # Name of the location, lat location, lon location, flyable winddirection from[°], to[°]
 locations = [["Petten",52.7621289,4.6689374,250,310],["Norderney",53.7119469,7.2426931,330,10],["Fehmarn",54.4686978,11.158683,340,110],["Fuerte",28.1608674,-14.2247672,0,360]]
@@ -12,6 +12,8 @@ locations = [["Petten",52.7621289,4.6689374,250,310],["Norderney",53.7119469,7.2
 kmhFaktor=1.609344 # to calculate kmh from mph
 minWS=12 # minimal WS where flying is possible
 maxWS=30 # maximal flyable WS
+
+####################################################################################################
 
 # this def will check if the WD is in range and returns 0 or 1
 def checkWR(richtung, von, bis):
