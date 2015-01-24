@@ -1,17 +1,3 @@
-/*******************************************
- * Name.......:  forecastAlert
- * Description:  This program will check the wind forecast for defined locations, if the forecast is in a flyable range, it will inform you
- * Author.....:  Sebastian Setz
- * Date.......:  2015-01-24
- * Project....:  -
- * Contact....:  http://Sebastian.Setz.name
- * License....:  This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
- * Credit.....:  -
- * Keywords...:  python, paragliding, kitesurfing, flyable, kiteable, alert, forecast
- * History....:  2015-01-24 - release
- ********************************************/
-
-
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
